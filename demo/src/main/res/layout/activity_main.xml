@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <eu.alessiobianchi.besidebelowlayout.BesideBelowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8000ff00"
+            android:padding="10dp"
+            app:internal_h_margin="20dp"
+            app:internal_v_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#80ff0000"
+                android:text="Lorem ipsum dolor sit amet."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#800000ff"
+                android:text="Quisque tempor"/>
+        </eu.alessiobianchi.besidebelowlayout.BesideBelowLayout>
+
+        <eu.alessiobianchi.besidebelowlayout.BesideBelowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#8000ff00"
+            android:padding="10dp"
+            app:internal_h_margin="20dp"
+            app:internal_v_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#80ff0000"
+                android:text="Lorem ipsum dolor sit amet consectetur elit."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#800000ff"
+                android:text="Quisque tempor"/>
+        </eu.alessiobianchi.besidebelowlayout.BesideBelowLayout>
+
+        <eu.alessiobianchi.besidebelowlayout.BesideBelowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#8000ff00"
+            android:padding="10dp"
+            app:internal_h_margin="10dp"
+            app:internal_v_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#80ff0000"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius arcu augue, sit amet fringilla sem maximus vitae. Ut posuere, magna id convallis finibus, urna lectus accumsan ipsum, vitae porta ante nibh non felis. Morbi quis molestie erat."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#800000ff"
+                android:text="Quisque tempor"/>
+        </eu.alessiobianchi.besidebelowlayout.BesideBelowLayout>
+
+        <eu.alessiobianchi.besidebelowlayout.BesideBelowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#8000ff00"
+            android:padding="10dp"
+            app:internal_h_margin="20dp"
+            app:internal_v_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#80ff0000"
+                android:text="Lorem ipsum dolor sit amet."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#800000ff"
+                android:text="Morbi eu fermentum lacus. Phasellus rutrum ut tortor ut ultricies. Maecenas non dui ac orci rutrum consequat sit amet id ex. Aliquam erat volutpat. Maecenas ultrices dignissim ante, sed condimentum risus accumsan sit amet."/>
+        </eu.alessiobianchi.besidebelowlayout.BesideBelowLayout>
+
+        <eu.alessiobianchi.besidebelowlayout.BesideBelowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#8000ff00"
+            android:padding="10dp"
+            app:align_right_when_below="false"
+            app:internal_h_margin="10dp"
+            app:internal_v_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#80ff0000"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius arcu augue, sit amet fringilla sem maximus vitae. Ut posuere, magna id convallis finibus, urna lectus accumsan ipsum, vitae porta ante nibh non felis. Morbi quis molestie erat."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#800000ff"
+                android:text="Quisque tempor"/>
+        </eu.alessiobianchi.besidebelowlayout.BesideBelowLayout>
+
+    </LinearLayout>
+
+</ScrollView>

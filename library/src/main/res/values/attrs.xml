@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BesideBelowLayout">
+        <attr name="internal_h_margin" format="dimension" />
+        <attr name="internal_v_margin" format="dimension" />
+        <attr name="align_right_when_below" format="boolean" />
+    </declare-styleable>
+
+</resources>
